@@ -12,23 +12,27 @@
 <body>
     <div class="app">
     <header>
-        <form>
-            <input type="search" placeholder="Enter a city..." required/>
-            <input type="submit" value="search"/>
+        <form class="search-form">
+            <input type="search" placeholder="Enter a city..." required class="search-form-input"/>
+            <input type="submit" value="search" class="search-form-button"/>
         </form>
     </header>
     <main>
+        <div class="weather-app-data">
         <div>
-        <h1>chicago</h1>
-        <p>
+        <h1 class="weather-app-city">chicago</h1>
+        <p class="weather-app-details">
             Monday 19:04, sattered clouds 
             <br/>
-            Humidity: 40%, Wind: 4.8km/h
+            Humidity: <strong>40%</strong>, Wind: <strong>4.8km/h</strong>
         </p>
         </div>
-        <div>
-        🗃 19 C degrees
+        <div class="weather-app-temperature-container">
+            <div class="weather-app-icon"> ☀️ </div> 
+            <div class="weather-app-temperature">19</div>
+            <div class="weather-app-unit">°C</div>
         </div>
+    </div>
     </main>
   <footer> Coded by <a href="https://github.com/cyandy3" target="_blank">Gema De Robles Vivas</a>, code hosted by <a href="https://github.com/" target="_blank">GitHub,</a> site hosted on<a href="https://www.netlify.com/?qgad=669861900644&qgterm=netlify&utm_source=google&utm_term=netlify&utm_campaign=GS_Connect:+Netlify+Brand&utm_medium=paid_search&hsa_acc=3888979506&hsa_cam=20355763121&hsa_grp=154990107550&hsa_ad=669861900644&hsa_src=g&hsa_tgt=kwd-309804753741&hsa_kw=netlify&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjw-r-vBhC-ARIsAGgUO2AZulmby6no9Y5xFNu1S6YonFO2tBYeW2MdKiKx0D32N5LHPMipMRwaAjVuEALw_wcB" target="_blank"> Netlify</a>
 </footer>
