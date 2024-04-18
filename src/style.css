@@ -100,7 +100,25 @@ footer{
 .weather-forecast-date{
   font-size: 16px;
   opacity: 0.5;
+  text-align: center;
 }
 .weather-forecast-temperature-min{
   opacity: 0.5;
+}
+.weather-forecast-icon{
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;  
+}
+.weather-forecast-temperature-min{
+  text-align: center;
+  color: rgb(105, 103, 235);
+
+}
+.weather-forecast-temperature-max{
+text-align: center;
+color: rgb(105, 103, 235);
+
 }
