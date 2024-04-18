@@ -90,9 +90,12 @@ footer{
     font-size: 15px;
     color: rgba(0, 0, 0, 0.6);
 }
-.weather-forecast{
-  margin-top:20px;
-  text-align: center;
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
 }
 .weather-forecast-date{
   font-size: 16px;
